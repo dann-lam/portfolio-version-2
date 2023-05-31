@@ -230,11 +230,13 @@ h1 {
     /* border: 1px solid black; */
     padding: 20px;
     width: 500px;
-    height: 275px;
+    height: 325px;
     object-fit: contain;
     opacity: var(--darkest-color);
-    filter: brightness(50%) blur(2px);
+    filter: brightness(85%) blur(1px);
     user-select: none;
+    object-fit: cover;
+    object-position: top;
 }
 
 .project_image_2 {

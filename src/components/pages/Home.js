@@ -21,18 +21,3 @@ export default function Home() {
   );
 }
 
-{
-  /* <section id="about_me_container">
-    <div>
-        <img src="assets/images/picofme.png" alt="Yours truly." id="about_me_image" width="150"
-            height="150">
-    </div>
-    <article id="about_me_text">
-        <p class="text_big">
-            a little about me...
-        </p>
-
-    </article>
-
-</section> */
-}
