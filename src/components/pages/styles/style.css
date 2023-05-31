@@ -2,14 +2,17 @@
 
     --lightest-color: #ebebeb;
     --light-color: #cfcdcd;
-    --middle-color: #6f6f85;
-    --dark-color: #3c2323;
-    --darkest-color: #19182e;
+    --middle-color: #5c5c8a;
+    --dark-color: #46817e;
+    --darkest-color: #142727;
     --temp-border-viewer: 1px solid white;
     --font: 'Franklin Gothic Medium'
+    /* --font: 'Franklin Gothic Medium' */
 
 }
-
+#root{
+    height: 100%;
+}
 body {
     /* Display Controls */
     display: flex;
@@ -37,7 +40,15 @@ body {
     padding: 1%;
 }
 
-
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(9, 7, 16, 0.314);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
 .main-container {
     display: flex;
     justify-content: flex-start;
@@ -54,7 +65,7 @@ body {
     /* border: 1px solid green; */
 
     /* Width Controls */
-    height: 100%;
+    height: 100vh;
     width: 100%;
 }
 
@@ -94,10 +105,13 @@ header {
 
 
 #navbox-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: sticky;
     top: 0;
     user-select: none;
-
+    list-style-type: none;
 }
 
 #navbox-links a,
@@ -124,13 +138,18 @@ p {
 
 h1 {
     /* border: 1px solid black; */
-    height: 75%;
+    height: 50%;
     width: 90%;
+    border-top: 50px;
+    margin-top: 5%;
     margin: 5%;
+    padding-top: 50px;
     padding: 5%;
     display: flex;
     justify-content: center;
     color: var(--lightest-color);
+    font-family: var(--font);
+    user-select: none;
 }
 
 #about_me_container {
@@ -179,8 +198,8 @@ h1 {
 }
 
 #about_me_text_desc {
-    font-size: small;
-    font-weight: 10;
+    font-size: large;
+    font-weight: 12;
     display: flex;
     justify-content: flex-start;
     text-align: start;

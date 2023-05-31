@@ -5,18 +5,8 @@ import "../components/pages/styles/style.css";
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
-        <a
-          href="#Home"
-          onClick={() => handlePageChange("Home")}
-          // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === "Home" ? "nav-link active" : "nav-link"}
-        >
-          Home
-        </a>
-      </li>
-      <li className="nav-item">
+    <ul id="navbox-links">
+      <li>
         <a
           href="#About"
           onClick={() => handlePageChange("About")}
@@ -26,7 +16,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           About
         </a>
       </li>
-      <li className="nav-item">
+      <li>
         <a
           href="#Portfolio"
           onClick={() => handlePageChange("Portfolio")}
@@ -39,7 +29,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      <li className="nav-item">
+      <li>
         <a
           href="#Contact"
           onClick={() => handlePageChange("Contact")}
