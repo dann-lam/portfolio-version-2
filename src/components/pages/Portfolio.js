@@ -3,6 +3,7 @@ import weatherForecastPic from "../../assets/images/better_demo.gif";
 import streemyPic from "../../assets/images/togglefavorite.gif";
 import travlrPic from "../../assets/images/travlr.jpg";
 import employeePic from "../../assets/images/employee_db.gif";
+import horiseonPic from "../../assets/images/horiseon_website.jpg";
 // Yeah yeah, I know we're supposed to be dynamically generating these using components. Listen, this isn't even the portfolio's final form.
 export default function Portfolio() {
   return (
@@ -38,11 +39,7 @@ export default function Portfolio() {
           />
         </a>
         <a href="https://dann-lam.github.io/3-20-2023-HTMLCSS/">
-          <img
-            src="./assets/images/horiseon_website.jpg"
-            alt="Horiseon Project"
-            class="project_image"
-          />
+          <img src={horiseonPic} alt="Horiseon Project" class="project_image" />
         </a>
       </div>
     </div>
