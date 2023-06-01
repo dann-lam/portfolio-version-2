@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio-version-2/static/css/main.05c0401a.css",
+    "main.js": "/portfolio-version-2/static/js/main.19ac01da.js",
+    "static/media/picofme.png": "/portfolio-version-2/static/media/picofme.57eebd01fb1186a9132e.png",
+    "static/media/togglefavorite.gif": "/portfolio-version-2/static/media/togglefavorite.18eafc2972bd5c8e0876.gif",
+    "static/media/better_demo.gif": "/portfolio-version-2/static/media/better_demo.add554927bc2cb4969e0.gif",
+    "static/media/travlr.jpg": "/portfolio-version-2/static/media/travlr.b8e279c272e35b34f93b.jpg",
+    "static/media/employee_db.gif": "/portfolio-version-2/static/media/employee_db.1c74eff44bfb80215e04.gif",
+    "static/media/horiseon_website.jpg": "/portfolio-version-2/static/media/horiseon_website.ddad6668770dd2baaa54.jpg",
+    "static/media/DanielLam.pdf": "/portfolio-version-2/static/media/DanielLam.534d3b407418030920f4.pdf",
+    "index.html": "/portfolio-version-2/index.html",
+    "main.05c0401a.css.map": "/portfolio-version-2/static/css/main.05c0401a.css.map",
+    "main.19ac01da.js.map": "/portfolio-version-2/static/js/main.19ac01da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05c0401a.css",
+    "static/js/main.19ac01da.js"
+  ]
+}
